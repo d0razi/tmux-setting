@@ -14,6 +14,8 @@ add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bi
 apt update
 apt install -y docker-ce docker-compose
 
+usermod -aG docker $USER
+
 # Install pwntools
 python3 -m pip install --upgrade pip
 python3 -m pip install --upgrade pwntools

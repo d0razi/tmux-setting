@@ -20,13 +20,11 @@ After running `Main.sh`
 
 ## Settings
 
-First
+Into **`nvim`**
 
 ```vim
 :PlugInstall
 ```
-
-Second
 
 ```vim
 :CocInstall coc-clangd

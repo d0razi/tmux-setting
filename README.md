@@ -7,7 +7,7 @@ After running `Main.sh`
 ### Table of contents
 
 - [Neovim](#How-to-setup-neovim)
-- [zsh & Oh My Zsh](#How-to-setup-Zsh-&-Oh-My-Zsh)
+- [zsh & Oh My Zsh](#How-to-setup-Zsh)
 
 ---
 
@@ -36,7 +36,7 @@ Second
 ```
 
 
-# How to setup Zsh & Oh My Zsh
+# How to setup Zsh
 
 ## Requirements
 

@@ -18,7 +18,7 @@ After running `Main.sh`
 - **Neovim >= v0.7.2**
 - **Nodejs >= v12.12**
 
-## Installation
+## Settings
 
 First
 
@@ -41,8 +41,9 @@ Second
 ## Requirements
 
 - **Zsh**
+- **powerlevel10k**
 
-## Installation
+## Settings
 
 ```bash
 sudo apt install zsh

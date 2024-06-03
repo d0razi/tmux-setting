@@ -53,6 +53,8 @@ chsh -s $(which zsh)
 
 Change from **.zrhrc** to **ZSH_THEME="power level10k/power level10k"**.
 
+Install Oh-my-zsh
+
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
@@ -67,16 +69,16 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
-And Change from **.zshrc** to **plugins=(git zsh-syntax-highlighting zsh-autosuggestions)**
-
-```bash
-source .zshrc
-```
-
 ***Font Setting***
 
 ```bash
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+```
+
+And Change from **.zshrc** to **plugins=(git zsh-syntax-highlighting zsh-autosuggestions)**
+
+```bash
+source .zshrc
 ```
 
 ***Configure p10k***

@@ -8,7 +8,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+# Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'nanotech/jellybeans.vim'
 
 " 플러그인 시스템 초기화
@@ -112,15 +112,3 @@ let g:NERDTreeWinSize=30
 " tagbar 생성 시 우측 하단에 위치하게끔 생성
 let g:tagbar_position = 'rightbelow'
 " -----------------------------------
-
-lua <<EOF
-require'nvim-treesitter.configs'.setup {
-  ensure_installed = { "c", "python" },
-  ignore_install = { "" },
-  highlight = {
-    enable = true,
-    disable = { "" },
-    additional_vim_regex_highlighting = false,
-  },
-}
-EOF

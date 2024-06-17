@@ -1,6 +1,8 @@
 
 # Start-up
 
+- Required packages, neovim, tmux, zsh
+
 After running `Main.sh`
 
 ---

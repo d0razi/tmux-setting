@@ -10,8 +10,6 @@ fi
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-alias vim="/usr/bin/nvim"
-alias vvim="/usr/bin/vim"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,

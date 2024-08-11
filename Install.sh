@@ -9,6 +9,8 @@ apt-get update -y
 apt-get upgrade -y
 apt-get install -y $PACK
 
+pip install pipenv
+
 # Docker Install
 apt install -y apt-transport-https ca-certificates curl software-properties-common
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add -

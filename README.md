@@ -1,9 +1,7 @@
 
 # Start-up
 
-- Required packages, neovim, tmux, zsh
-
-After running `Main.sh`
+- `neovim`, `tmux`, `zsh`
 
 ---
 ### Table of contents
@@ -17,7 +15,9 @@ After running `Main.sh`
 
 ## Requirements
 
-- **Neovim >= v0.7.2**
+- **Neovim >= v0.7.2** <- Manual Install
+https://github.com/neovim/neovim
+
 - **Nodejs >= v12.12**
 
 ## Settings
@@ -32,8 +32,12 @@ Into **`nvim`**
 :CocInstall coc-clangd
 :CocInstall coc-pyright
 
+# If tou get an Error.
 :CocCommand clangd.install
 ```
+
+Also need to set the font so that the icons look normal, like in NerdTree.
+https://github.com/ryanoasis/nerd-fonts/blob/master/readme_ko.md
 
 
 # How to setup Zsh

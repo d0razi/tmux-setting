@@ -16,9 +16,11 @@
 ## Requirements
 
 - **Neovim >= v0.7.2** <- Manual Install
+
 https://github.com/neovim/neovim
 
 - **Nodejs >= v12.12**
+
 
 ## Settings
 
@@ -37,6 +39,7 @@ Into **`nvim`**
 ```
 
 Also need to set the font so that the icons look normal, like in NerdTree.
+
 https://github.com/ryanoasis/nerd-fonts/blob/master/readme_ko.md
 
 

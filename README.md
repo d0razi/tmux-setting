@@ -23,6 +23,11 @@ https://github.com/neovim/neovim
 
 https://deb.nodesource.com/
 
+```bash
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt-get install -y nodejs npm
+```
+
 ## Settings
 
 Into **`nvim`**

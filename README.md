@@ -24,8 +24,8 @@ https://github.com/neovim/neovim
 https://deb.nodesource.com/
 
 ```bash
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-sudo apt-get install -y nodejs npm
+curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+sudo apt-get install -y nodejs npm python3-neovim
 ```
 
 ## Settings
@@ -49,7 +49,9 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 :CocCommand clangd.install
 ```
 
-Also need to set the font so that the icons look normal, like in NerdTree.
+https://github.com/neoclide/coc.nvim/wiki/Language-servers
+
+###Also need to set the font so that the icons look normal, like in NerdTree.
 
 https://github.com/ryanoasis/nerd-fonts/blob/master/readme_ko.md
 

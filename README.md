@@ -73,7 +73,7 @@ sudo apt install zsh
 chsh -s $(which zsh)
 ```
 
-Change from **.zrhrc** to **ZSH_THEME="power level10k/power level10k"**.
+Change from **.zrhrc** to **ZSH_THEME="powerlevel10k/powerlevel10k"**.
 
 Install Oh-my-zsh
 
@@ -94,7 +94,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 Then, search for the plugin() section in the ~/.zshrc file and modify it as follows
 
 ```bash
-plugin(
+plugins=(
   git
   zsh-syntax-highlighting
   zsh-autosuggestions
